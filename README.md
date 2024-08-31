@@ -1,6 +1,6 @@
-Naaptol Selenium-TestNG-POM Project
+Naaptol Selenium-BDD Cucumber Project
 
-This project uses Selenium WebDriver with TestNG and Page Object Model to automate testing of the Consumer Electronics section on the Naaptol website.
+This project uses Selenium WebDriver with TestNG and BDD Cucumber to automate testing of the Consumer Electronics section on the Naaptol website.
 
 ## 1. Technology Stack
 

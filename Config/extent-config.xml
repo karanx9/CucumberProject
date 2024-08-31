@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+    <configuration>
+        <encoding>UTF-8</encoding>
+        <documentTitle>Cucumber Framework</documentTitle>
+        <reportName>Cucumber Report</reportName>
+        <reportHeadline>Cucumber Framework</reportHeadline>
+    </configuration>
+</extentreports>

@@ -20,7 +20,13 @@ This project uses Selenium WebDriver with TestNG and Page Object Model to automa
 * ExtentReports library
 * Appropriate browser drivers ( ChromeDriver)
 
-## 3. Project Structure
+## 3. Screenshots
+  
+ ![Screenshot (60)](https://github.com/user-attachments/assets/4283e4f5-984f-4abd-bf8f-b6fe11cacaa8)
+
+  
+
+## 4. Project Structure
 
 ```
 project-root/
@@ -55,7 +61,7 @@ project-root/
 └── README.md
 
 
-## 4. Test Scenarios
+5. Test Scenarios
 
 The `ConsumerElectronicsTest` class contains the following test scenarios:
 
@@ -67,8 +73,7 @@ The `ConsumerElectronicsTest` class contains the following test scenarios:
 6. Portable Audio Page Test
 7. Printers Page Test
 
-## 5. How to Run Tests
-
+ 6. How to Run Tests
 	package Testrunner;
 
 	import io.cucumber.testng.AbstractTestNGCucumberTests;
@@ -85,8 +90,7 @@ The `ConsumerElectronicsTest` class contains the following test scenarios:
 	public class Testrunner extends AbstractTestNGCucumberTests {
 	
 	}
-
-## 6. Reporting
+ 7. Reporting
 
 This project uses ExtentReports for test reporting. After the test execution, you can find the report at:
 
@@ -94,13 +98,8 @@ This project uses ExtentReports for test reporting. After the test execution, yo
 C:\eclipse-workspace\Assessment\Report.html
 ```
 
-## 7. Screenshots
 
-![Screenshot (60)](https://github.com/user-attachments/assets/ec05c47e-24f3-475e-a541-e83893701796)
-
-
-
-8 . BDD Cucumber Framework
+ 8. BDD Cucumber Framework
 
 Given is a Testrunner file to run this project :
 
@@ -123,4 +122,6 @@ Example:
 	public class Testrunner extends AbstractTestNGCucumberTests {
 	
 	}
+
+
 

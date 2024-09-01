@@ -43,5 +43,36 @@ public class Homepagetest {
         // Click on the Consumer Electronics section
         driver.findElement(By.xpath("(//span[@class=\"catIconMenu electronics\"])[1]")).click();
     }
+      @Then("perform search operations")
+    public void perform_search_operations() {
+    	
+    	  
+    	  //Perform search opeartions
+    	  driver.findElement(By.cssSelector("input[id=\"header_search_text\"]")).sendKeys(".");
+
+    	  driver.findElement(By.xpath("(//div[@class=\"search\"])[2]")).click();
+    	  
+    	  driver.findElement(By.cssSelector("input[id=\"header_search_text\"]")).clear();
+
+    	   
+    	  driver.findElement(By.cssSelector("input[id=\"header_search_text\"]")).sendKeys("bussiness@gmail");
+
+    	  driver.findElement(By.xpath("(//div[@class=\"search\"])[2]")).click();
+    	  
+    	  //Asserting the text with actual result
+          String text = "Either no product matches the word entered by you or please remove some of filter options selected to see products.";
+          String actual = "Either no product matches the word entered by you or please remove some of filter options selected to see products.";
+          Assert.assertEquals(text, actual);
+   	   
+    	  driver.findElement(By.cssSelector("input[id=\"header_search_text\"]")).clear();
+    	  
+    	  driver.findElement(By.cssSelector("input[id=\"header_search_text\"]")).sendKeys("9403343224");
+
+    	  driver.findElement(By.xpath("(//div[@class=\"search\"])[2]")).click();
+    	  
+    	  driver.findElement(By.cssSelector("input[id=\"header_search_text\"]")).clear();
+
+    
+    }
 }
 

@@ -7,6 +7,7 @@ Feature:  Homepage Test:
     Given I am on the Naaptol homepage
     When I click on the Shopping category
     And I click on Consumer Electronics
+    Then perform search operations
 
    
     
